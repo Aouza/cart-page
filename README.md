@@ -9,13 +9,13 @@ Para clonar e subir a aplicação, é necessário ter o Git e o Node.js instalad
 ## Faça um clone da aplicação.
 
 ```bash
-$ git clone https://github.com/Aouza/Alumia
+$ git clone https://github.com/Aouza/cart-page
 ```
 
 Vá até o repositório.
 
 ```bash
-$ cd alumia
+$ cd cart-page
 ```
 
 Instale as dependências.
