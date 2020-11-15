@@ -1,30 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Carrinho de compras
 
-## Getting Started
+Projeto de desenvolvimento de uma página simulando um carrinho de compras, utilizando uma API Fake.
 
-First, run the development server:
+# 🚀 Subindo a aplicação
+
+Para clonar e subir a aplicação, é necessário ter o Git e o Node.js instalados em sua máquina.
+
+## Faça um clone da aplicação.
 
 ```bash
-npm run dev
-# or
-yarn dev
+$ git clone https://github.com/Aouza/Alumia
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Vá até o repositório.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+$ cd alumia
+```
 
-## Learn More
+Instale as dependências.
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+$ yarn
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ou
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+$ npm install
+```
 
-## Deploy on Vercel
+Suba a aplicação.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+$ yarn start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Ou
+
+```bash
+$ npm run start
+```

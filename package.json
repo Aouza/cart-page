@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.21.0",
+    "concurrently": "^5.3.0",
     "json-server": "^0.16.2",
     "next": "10.0.1",
     "react": "17.0.1",
