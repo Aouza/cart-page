@@ -32,3 +32,7 @@ $ yarn json-server --watch -p 3333 src/services/api.json
 $ npx json-server --watch -p 3333 src/services/api.json
 
 ```
+
+### Link para acessar a aplicação no ar:
+
+[`https://cart-page.vercel.app/cart`](https://cart-page.vercel.app/cart)
