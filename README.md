@@ -2,42 +2,33 @@
 
 Projeto de desenvolvimento de uma página simulando um carrinho de compras, utilizando uma API Fake.
 
-# 🚀 Subindo a aplicação
+# 🚀 Subindo a aplicação web
 
 Para clonar e subir a aplicação, é necessário ter o Git e o Node.js instalados em sua máquina.
 
-## Faça um clone da aplicação.
-
 ```bash
+# Faça um clone da aplicação.
 $ git clone https://github.com/Aouza/cart-page
-```
 
-Vá até o repositório.
-
-```bash
+# Vá até o repositório.
 $ cd cart-page
-```
 
-Instale as dependências.
-
-```bash
+# Instale as dependências.
 $ yarn
-```
 
-Ou
-
-```bash
+# Ou
 $ npm install
-```
 
-Suba a aplicação.
+# Suba a aplicação.
+$ yarn dev
 
-```bash
-$ yarn start
-```
+# Ou
+$ npm run dev
 
-Ou
+# Caso a API fake não suba:
+$ yarn json-server --watch -p 3333 src/services/api.json
 
-```bash
-$ npm run start
+# Ou
+$ npx json-server --watch -p 3333 src/services/api.json
+
 ```
